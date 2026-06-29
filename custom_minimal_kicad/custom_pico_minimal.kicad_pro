@@ -920,7 +920,7 @@
         "uuid": "8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
       }
     ],
-    "used_designators": "",
+    "used_designators": "J1,D1,#PWR32",
     "variants": []
   },
   "sheets": [

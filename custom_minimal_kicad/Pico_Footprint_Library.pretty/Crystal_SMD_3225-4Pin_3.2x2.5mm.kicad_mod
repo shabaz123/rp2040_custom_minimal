@@ -7,7 +7,7 @@
 	(property "Reference" "REF**"
 		(at -3.1 0.1 90)
 		(layer "F.SilkS")
-		(uuid "09a353ca-db7a-46d7-b943-06bf5b8325a8")
+		(uuid "3724f374-ba95-4f19-accd-28210d2ad98b")
 		(effects
 			(font
 				(size 1.2 1.2)
@@ -18,7 +18,7 @@
 	(property "Value" "ABM8-272-T3"
 		(at 0 2.45 0)
 		(layer "F.Fab")
-		(uuid "089a54ea-242d-49b5-b8cb-2a6678fb973c")
+		(uuid "d7dd89cd-9b7e-4156-a8f2-6d5acc0aba48")
 		(effects
 			(font
 				(size 1 1)
@@ -30,7 +30,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "17e9dc4b-b75b-4529-a9b2-0c29536aa378")
+		(uuid "10822dd6-ef65-47c1-b5a4-2ff45057aa47")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -41,7 +41,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "df0a161a-d430-47cf-9ead-452339c5bc3f")
+		(uuid "0af46a9c-dd58-4863-8f6b-d0a49d8de1b9")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -52,7 +52,7 @@
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "2e79c209-3b2a-4346-b84a-affd9389777a")
+		(uuid "79b28300-219e-4bee-ae18-81674d9030c4")
 		(effects
 			(font
 				(size 1 1)
@@ -73,7 +73,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "0d3807e2-9ee7-46eb-b484-ac69dfeab1ff")
+		(uuid "b110a7b5-7d47-4a35-a33f-44e52e61d39f")
 	)
 	(fp_line
 		(start -2.06 1.71)
@@ -83,7 +83,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "dbc78f04-59d8-406b-a1c2-2eaab2de18f9")
+		(uuid "5d3768d8-069b-4d36-a864-064a3465db22")
 	)
 	(fp_rect
 		(start -2.1 -1.75)
@@ -94,7 +94,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "3c326580-0f45-476a-bd61-60553d8d13e0")
+		(uuid "9c257935-85dc-4341-974e-136d21b53f5c")
 	)
 	(fp_poly
 		(pts
@@ -106,12 +106,12 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "000d5236-2959-407b-a322-92be884fde2b")
+		(uuid "0d0d5d45-6c8b-4b7c-bf2f-bfcddcfb9b81")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "7de2cdab-3d06-4550-9abd-85a5dea8177d")
+		(uuid "c260269a-eea9-4986-82fa-1406ce72b8dc")
 		(effects
 			(font
 				(size 0.7 0.7)
@@ -124,28 +124,89 @@
 		(size 1.4 1.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.208333)
-		(uuid "ed2d6926-7538-4f49-bb94-962c996c8f56")
+		(uuid "5d78f683-75ff-422b-b555-82f9abfecb1e")
 	)
 	(pad "2" smd roundrect
 		(at 1.1 0.85)
 		(size 1.4 1.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.208333)
-		(uuid "30b9eb8a-98ef-4354-bcc1-654f7ee29ee4")
+		(uuid "bd291029-0590-453c-9f58-a2c34e8f3aef")
 	)
 	(pad "3" smd roundrect
 		(at 1.1 -0.85)
 		(size 1.4 1.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.208333)
-		(uuid "23883ead-0e6b-4604-b17b-3cc34d928a6d")
+		(uuid "f632279e-9c14-41a9-8992-10c3e0417702")
 	)
 	(pad "4" smd roundrect
 		(at -1.1 -0.85)
 		(size 1.4 1.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.208333)
-		(uuid "4d75d619-9133-4edd-a2ee-4373d90f1a40")
+		(uuid "7d9adf17-891e-4e0a-8ce5-e8ab34154afc")
+	)
+	(zone
+		(layer "F.Cu")
+		(uuid "062e1cc7-524a-457a-8701-f56c00dd016c")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "/")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy 0 2) (xy -2.3 2) (xy -2.3 0) (xy -2 0) (xy -2 -1.7) (xy 0 -1.7) (xy 0 -2) (xy 2.3 -2) (xy 2.3 0)
+				(xy 2.1 0) (xy 2.1 1.7) (xy 0 1.7)
+			)
+		)
+	)
+	(zone
+		(layer "B.Cu")
+		(uuid "dec2ed4f-b6ab-4d54-b2b3-aa3fc2eedbbf")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "/")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy -2.1 -1.7) (xy 2.1 -1.7) (xy 2.1 1.7) (xy -2.1 1.7)
+			)
+		)
 	)
 	(embedded_fonts no)
 	(model "${KICAD10_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_3225-4Pin_3.2x2.5mm.step"
