@@ -14,7 +14,7 @@ The schematic includes the RP2040 microcontroller along with supporting circuitr
 
 ## PCB Layout
 
-The image here shows the top side copper. The bottom side is nearly all ground plane, apart from a few traces that carry 1.1V core power, and a few traces at the USB-C connector end to allow cables to be inserted in any orientation.
+The image here shows the top side copper. The bottom side is nearly all ground plane, apart from a few traces that carry 1.1V core power, and one at the USB-C connector end to allow cables to be inserted in any orientation.
 
 ![PCB Layout](doc/rp2040-min-board-top.png)
 
