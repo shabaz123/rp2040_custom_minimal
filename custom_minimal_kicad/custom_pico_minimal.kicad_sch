@@ -5714,7 +5714,7 @@
 		(uuid "e3685dcd-cf98-4f6e-be75-1577ca0c75b0")
 	)
 	(no_connect
-		(at 99.06 175.26)
+		(at 99.06 170.18)
 		(uuid "e8104637-9ec8-4c70-83ce-ed4904a9dc0d")
 	)
 	(no_connect
@@ -8922,7 +8922,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C844545"
+		(property "LCSC Part #" "C384351"
 			(at 160.02 162.56 90)
 			(hide yes)
 			(show_name no)
@@ -9013,7 +9013,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C844545"
+		(property "LCSC Part #" "C384351"
 			(at 160.02 160.02 90)
 			(hide yes)
 			(show_name no)
