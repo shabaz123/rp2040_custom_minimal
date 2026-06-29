@@ -6,7 +6,9 @@ The modified version is more suited to recent KiCad versions (for instance KiCad
 
 ## Schematic
 
-The schematic includes the RP2040 microcontroller along with supporting circuitry. The USB connector is USB-C, unlike the original Micro USB. The GPIO connectors from the original schematic have been removed, so that the schematic is ready for custom additions. 
+The schematic includes the RP2040 microcontroller along with supporting circuitry. The USB connector is USB-C, unlike the original Micro USB. 
+
+**NOTE**: The GPIO connectors from the original schematic have been removed, so that the schematic is ready for custom additions.
 
 ![Schematic](doc/rp2040-min-board-schematic.png)
 
